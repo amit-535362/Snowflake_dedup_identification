@@ -1,0 +1,22 @@
+# dbt generated folders
+target/
+logs/
+dbt_packages/
+
+# Snowflake private keys
+*.p8
+*.pem
+*.key
+
+# dbt credentials
+profiles.yml
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
